@@ -6,8 +6,8 @@ This is the first Nagios container built especially for Raspberry Pi and ARM arc
 
 To build the container:<br>
 
-$git pull https://github.com/ajeetraina/nagios-centos-arm
-$docker build -t ajeetraina/nagios-armh .
+$git pull https://github.com/ajeetraina/nagios-centos-arm<br>
+$docker build -t ajeetraina/nagios-armh . <br>
 
 
 To run container use the command below:<br>
