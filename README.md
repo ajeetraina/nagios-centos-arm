@@ -1,19 +1,21 @@
-<h1>docker-nagios</h1>
+<h1>Nagios Docker Image for Raspberry Pi </h1>
 
-Docker container for Monitoring Dell Hardware through Nagios and check_openmanage plugin <br>
+This is the first Nagios container built especially for Raspberry Pi and ARM architecture <br>
 
 <h1>Usage:</h1>
 
+To build the container:<br>
+
+#git pull https://github.com/ajeetraina/nagios-centos-arm
+#docker build -t ajeetraina/nagios-armh .
+
+
 To run container use the command below:<br>
 
-docker run -d --net=host ajeetraina/docker-nagios<br>
+docker run -d --net=host ajeetraina/nagios-centos-arm<br>
 
 Open up http://Host IP/nagios with the following credentials:<br>
 
 nagiosadmin/nagiosadmin<br>
 
-<h1>Under what section does it actually monitor Dell Hardware?</h1><br>
 
-Open up Nagios UI > Go to Hostgroup > Summary > Physical Health
-# raspberryPi
-# raspberryPi
