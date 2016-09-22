@@ -12,7 +12,7 @@ $docker build -t ajeetraina/nagios-armh . <br>
 
 <h1>To run container use the command below:<br></h1>
 
-$docker run -d --net=host ajeetraina/nagios-centos-arm<br>
+$docker run -d --net=host ajeetraina/nagios-armh<br>
 
 Open up http://Host IP/nagios with the following credentials:<br>
 
